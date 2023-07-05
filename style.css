@@ -1,0 +1,40 @@
+.main {
+    text-align: center;
+    border: 2px outset rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.titles {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body {
+        margin: 0;
+        }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        }
+
+    li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+        }
+
+    li a.active {
+        background-color: #8a8c92;
+        color: white;
+        }
+
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+        }
